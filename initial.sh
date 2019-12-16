@@ -14,6 +14,9 @@ Ubuntu)
 Debian)
 	OS="debian"
 	case $VER in
+	10.*)
+		VER_NAME="buster"
+		;;
 	9.*)
 		VER_NAME="stretch"
 		;;
